@@ -1,11 +1,12 @@
+<div dir="rtl">
 ---
 layout: post
 title: Introducing mbaharn
 ---
-<div dir="rtl">
+
     
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
-</div>
+
 ### Built on Poole
 
 Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Lanyon here) includes the following:
@@ -37,3 +38,4 @@ Lanyon is by preference a forward-thinking project. In addition to the latest ve
 Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.
 
 Thanks!
+</div>
