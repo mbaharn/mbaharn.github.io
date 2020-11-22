@@ -1,37 +1,23 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | absolute_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<h1>This is a Heading</h1>
+<p>
+أنا باسل الفردان. أسكن في القطيف
+</p>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<p>
+    أنا الحين قاعد أتعلم كمبيوتر ويا خالي محمد :)
+</p>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+<a href="https://google.com">إضغط هنا علشان تروح لجوجل</a>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<img src="https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/413b4080d0344c6b8257689533db5403_Large.jpg" >
+
+</body>
+</html>
+
